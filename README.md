@@ -2,12 +2,11 @@
 <head>
 </head>
 <body>
-<!--
 <h1><a href="http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript">Learning JavaScript Design Patterns</a></h1>
 <ul>
 <li><a href="http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/#introduction">Introduction</a></li>
 <li><a href="http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/#whatisapattern">What is a Pattern?</a></li>
--->
+<!--
 <script>
 	var baseURL = "http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/";
 	var myListId = "myList";
@@ -51,6 +50,7 @@
 	 })();
 	 
 </script>
+-->
 </ul>
 </body>
 </html>
