@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>Test Module</title>
+</head>
+<body>
+<script>
+	var testModule = (function(){
+			// private variable
+			var counter = 0;
+
+		return {
+			// public method to change counter
+			incrementCounter: function(){
+				return counter++;
+			},
+
+			// public method to change counter
+			resetCounter: function(){
+				console.log("counter value prior to reset: " + counter);
+				counter = 0;
+			}
+		};
+
+	})();
+
+	// Usage:
+
+	// Increment our counter
+	testModule.incrementCounter();
+
+	// Check the counter value and reset
+	// Outputs: 1
+	testModule.resetCounter();
+
+</script>
+</body>
+</html>
