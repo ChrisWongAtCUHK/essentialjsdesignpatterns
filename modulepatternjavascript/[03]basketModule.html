@@ -57,6 +57,9 @@
 		price: 0.3
 	});
 
+	// Outputs: Do something private
+	basketModule.doSomething();
+	
 	// Outputs: 2
 	console.log(basketModule.getItemCount());
 
@@ -73,6 +76,7 @@
 	// This also won't work as it only exists within the scope of our
 	// basketModule closure, but not the returned public object
 	console.log(basket);
+
 </script>
 </body>
 </html>
